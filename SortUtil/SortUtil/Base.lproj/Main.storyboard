@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="T3G-yk-Gap"/>
+                        <viewControllerLayoutGuide type="bottom" id="GgM-Ee-f2X"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3bn-Am-xEv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNP-EI-omU">
+                                <rect key="frame" x="157" y="50" width="62" height="30"/>
+                                <state key="normal" title="插入排序">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.25882352939999997" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="inserSort:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pcg-eO-YSI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m5q-F1-9VN">
+                                <rect key="frame" x="157" y="95" width="62" height="30"/>
+                                <state key="normal" title="希尔排序">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.25882352939999997" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="shellSort:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3xg-Wd-i8O"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QXi-QE-scp">
+                                <rect key="frame" x="157" y="140" width="62" height="30"/>
+                                <state key="normal" title="选择排序">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.25882352939999997" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectSort:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p9g-iL-1rO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tHt-NL-6v4">
+                                <rect key="frame" x="165" y="185" width="46" height="30"/>
+                                <state key="normal" title="堆排序">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.25882352939999997" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="heapSort:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qkQ-mC-hSu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8xZ-Fx-ySw">
+                                <rect key="frame" x="157" y="230" width="62" height="30"/>
+                                <state key="normal" title="冒泡排序">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.25882352939999997" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="bubbleSort:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sGT-6A-yyw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s96-qF-zhp">
+                                <rect key="frame" x="157" y="275" width="62" height="30"/>
+                                <state key="normal" title="快速排序">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.25882352939999997" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="quickSort:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wdv-aQ-7zK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VMH-lT-LoY">
+                                <rect key="frame" x="157" y="320" width="62" height="30"/>
+                                <state key="normal" title="归并排序">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.25882352939999997" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="megerSort:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bRE-FT-C8x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5w5-XJ-Ib7">
+                                <rect key="frame" x="157" y="365" width="62" height="30"/>
+                                <state key="normal" title="基数排序">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.25882352939999997" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="radixSort:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8ca-j8-VBc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VMH-lT-LoY" firstAttribute="top" secondItem="s96-qF-zhp" secondAttribute="bottom" constant="15" id="0n5-8E-Ctc"/>
+                            <constraint firstItem="8xZ-Fx-ySw" firstAttribute="top" secondItem="tHt-NL-6v4" secondAttribute="bottom" constant="15" id="6Dc-MT-Muj"/>
+                            <constraint firstItem="qNP-EI-omU" firstAttribute="top" secondItem="T3G-yk-Gap" secondAttribute="bottom" constant="30" id="AuW-Ol-RqT"/>
+                            <constraint firstItem="QXi-QE-scp" firstAttribute="top" secondItem="m5q-F1-9VN" secondAttribute="bottom" constant="15" id="C6L-qk-LPf"/>
+                            <constraint firstItem="VMH-lT-LoY" firstAttribute="centerX" secondItem="s96-qF-zhp" secondAttribute="centerX" id="CO1-AO-yyH"/>
+                            <constraint firstItem="tHt-NL-6v4" firstAttribute="centerX" secondItem="QXi-QE-scp" secondAttribute="centerX" id="Cdu-tL-Rgg"/>
+                            <constraint firstItem="s96-qF-zhp" firstAttribute="top" secondItem="8xZ-Fx-ySw" secondAttribute="bottom" constant="15" id="Eju-Qf-agc"/>
+                            <constraint firstItem="tHt-NL-6v4" firstAttribute="top" secondItem="QXi-QE-scp" secondAttribute="bottom" constant="15" id="Ia3-ap-dCU"/>
+                            <constraint firstItem="5w5-XJ-Ib7" firstAttribute="top" secondItem="VMH-lT-LoY" secondAttribute="bottom" constant="15" id="LLN-oF-q6d"/>
+                            <constraint firstItem="5w5-XJ-Ib7" firstAttribute="centerX" secondItem="VMH-lT-LoY" secondAttribute="centerX" id="S98-Lf-FjQ"/>
+                            <constraint firstItem="s96-qF-zhp" firstAttribute="centerX" secondItem="8xZ-Fx-ySw" secondAttribute="centerX" id="SKV-Sn-fT8"/>
+                            <constraint firstItem="m5q-F1-9VN" firstAttribute="top" secondItem="qNP-EI-omU" secondAttribute="bottom" constant="15" id="avw-1d-7WQ"/>
+                            <constraint firstItem="m5q-F1-9VN" firstAttribute="centerX" secondItem="qNP-EI-omU" secondAttribute="centerX" id="hoP-y5-bwO"/>
+                            <constraint firstItem="8xZ-Fx-ySw" firstAttribute="centerX" secondItem="tHt-NL-6v4" secondAttribute="centerX" id="m2Y-9g-whU"/>
+                            <constraint firstItem="qNP-EI-omU" firstAttribute="centerX" secondItem="3bn-Am-xEv" secondAttribute="centerX" id="n8y-vu-2RZ"/>
+                            <constraint firstItem="QXi-QE-scp" firstAttribute="centerX" secondItem="m5q-F1-9VN" secondAttribute="centerX" id="vx8-tv-DlZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
